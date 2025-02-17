@@ -6,6 +6,10 @@ Doing everything from a command prompt or Git Bash (no IDEs allowed), your missi
 
 
 **Changes to code**
+We added <String> to the line where we created an instance of JComboBox called cBox1
 
 
-**What caused it to stop working?**
+**What caused it to stop working?** 
+It was trying to create a new generic type JComboBox object without specifying the type as String
+Java warns you because it won't be able to catch an error at compile time if you pass in different typed arguments later in the code
+The compiler doesn't know what type it is supposed to be and won't be able to give an accurate error at compile time
