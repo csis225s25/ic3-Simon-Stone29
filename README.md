@@ -6,7 +6,7 @@ Doing everything from a command prompt or Git Bash (no IDEs allowed), your missi
 
 
 **Changes to code**
-We added <String> to the line where we created an instance of JComboBox called cBox1
+//We added <String> to the line where we created an instance of JComboBox called cBox1
 
 
 **What caused it to stop working?** 
